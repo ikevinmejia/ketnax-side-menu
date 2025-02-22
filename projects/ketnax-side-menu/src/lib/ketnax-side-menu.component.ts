@@ -15,6 +15,8 @@ export enum TitleColor {
 })
 export class KetnaxSideMenuComponent {
   public isAuthenticated = input(false);
+  public title= input('Ketnax');
+  public subTitle = input('Corp');
 
   public titleColor = input<TitleColor>(TitleColor.purple)
 

@@ -1,6 +1,18 @@
 {
   "name": "ketnax-side-menu",
-  "version": "0.0.1",
+  "version": "0.0.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ikevinmejia/ketnax-side-menu"
+  },
+  "keywords": ["angular", "side-menu", "menu", "navigation", "ketnax"],
+  "license": "MIT",
+  "description": "A simple side menu component for Angular applications.",
+  "author": "Kevin Mejia",
+  "bugs": {
+    "url": "https://github.com/ikevinmejia/ketnax-side-menu/issues"
+  },
+  "homepage": "https://github.com/ikevinmejia/ketnax-side-menu",
   "peerDependencies": {
     "@angular/common": "^19.1.0",
     "@angular/core": "^19.1.0"
