@@ -1,0 +1,13 @@
+<h1 class="text-3xl font-bold underline">
+  Hello world!
+</h1>
+
+<lib-ketnax-side-menu
+  [isAuthenticated]="isAuthenticated()"
+  (onSignIn)="isAuthenticated.set(true)"
+  (onSignOut)="isAuthenticated.set(false)"
+  [titleColor]="TitleColor.green"
+
+  />
+<router-outlet />
+
